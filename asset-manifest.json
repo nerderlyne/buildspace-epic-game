@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/buildspace-epic-game/static/css/main.8e3dbdef.chunk.css",
+    "main.js": "/buildspace-epic-game/static/js/main.0ebe8b92.chunk.js",
+    "main.js.map": "/buildspace-epic-game/static/js/main.0ebe8b92.chunk.js.map",
+    "runtime-main.js": "/buildspace-epic-game/static/js/runtime-main.05056440.js",
+    "runtime-main.js.map": "/buildspace-epic-game/static/js/runtime-main.05056440.js.map",
+    "static/js/2.dfb8c6bb.chunk.js": "/buildspace-epic-game/static/js/2.dfb8c6bb.chunk.js",
+    "static/js/2.dfb8c6bb.chunk.js.map": "/buildspace-epic-game/static/js/2.dfb8c6bb.chunk.js.map",
+    "index.html": "/buildspace-epic-game/index.html",
+    "static/css/main.8e3dbdef.chunk.css.map": "/buildspace-epic-game/static/css/main.8e3dbdef.chunk.css.map",
+    "static/js/2.dfb8c6bb.chunk.js.LICENSE.txt": "/buildspace-epic-game/static/js/2.dfb8c6bb.chunk.js.LICENSE.txt",
+    "static/media/cat-water.694295d2.gif": "/buildspace-epic-game/static/media/cat-water.694295d2.gif",
+    "static/media/twitter-logo.a8a75254.svg": "/buildspace-epic-game/static/media/twitter-logo.a8a75254.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05056440.js",
+    "static/js/2.dfb8c6bb.chunk.js",
+    "static/css/main.8e3dbdef.chunk.css",
+    "static/js/main.0ebe8b92.chunk.js"
+  ]
+}
