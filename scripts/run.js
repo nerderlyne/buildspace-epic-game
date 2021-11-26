@@ -9,7 +9,11 @@ const main = async () => {
       "https://i.imgur.com/pmnIOJm.jpeg",
     ],
     [500, 400, 400], // HP values
-    [25, 70, 100] // Attack damage values
+    [25, 70, 100], // Attack damage values
+    "Bath", // Boss
+    "https://i.imgur.com/HM8CRCC.jpeg", // Boss Image
+    10000, // Boss hp
+    50 // Boss attack damage
   );
   await gameContract.deployed();
   console.log("Contract deployed to: ", gameContract.address);
@@ -20,6 +24,12 @@ const main = async () => {
 
   let returnedTokenUri = await gameContract.tokenURI(1);
   console.log("Token URI: ", returnedTokenUri);
+
+  txn = await gameContract.attackBoss();
+  await txn.wait();
+
+  txn = await gameContract.attackBoss();
+  await txn.wait();
 };
 
 const runMain = async () => {
